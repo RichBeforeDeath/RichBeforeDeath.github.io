@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free IPTV Information Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --background-color: #f8f9fa;
+            --text-color: #333;
+            --card-background: #fff;
+            --spacing: 1rem;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+        }
+        h1, h2, h3 {
+            color: var(--secondary-color);
+            margin-bottom: var(--spacing);
+        }
+        .navbar {
+            background-color: var(--primary-color);
+            padding: 1rem 0;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        .btn-primary:hover {
+            background-color: #2980b9;
+            border-color: #2980b9;
+        }
+        .channel-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: var(--spacing);
+        }
+        .channel-item {
+            text-align: center;
+            background-color: var(--card-background);
+            padding: var(--spacing);
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .channel-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            background-color: var(--secondary-color);
+            color: #fff;
+            padding: 2rem 0;
+        }
+        .section-padding {
+            padding: 4rem 0;
+        }
+        .text-highlight {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Free IPTV Info Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#overview">Overview</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#apps">Apps</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#playlists">M3U Playlists</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#devices">Devices</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#legal">Legal</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-light text-center py-5">
+        <div class="container">
+            <h1 class="display-4">Free IPTV Information Hub</h1>
+            <p class="lead">Your guide to understanding and accessing free IPTV services</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="overview" class="section-padding">
+            <div class="container">
+                <h2>Overview</h2>
+                <p>IPTV (Internet Protocol Television) allows users to stream television content over the internet. <span class="text-highlight">Free IPTV services</span> provide access to various channels and content without subscription fees. This guide will help you understand the world of free IPTV, its benefits, and how to get started.</p>
+                </div>
+        </section>
+
+        <section id="how-it-works" class="section-padding bg-light">
+            <div class="container">
+                <h2>How Free IPTV Works</h2>
+                <p>Free IPTV utilizes internet protocols to deliver television content to viewers. Here's a simplified explanation of the process:</p>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">1. Content Broadcasting</h5>
+                                <p class="card-text">Content is broadcasted from various sources such as TV stations or online platforms.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">2. Encoding and Compression</h5>
+                                <p class="card-text">The content is encoded and compressed for efficient internet transmission.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">3. Content Delivery</h5>
+                                <p class="card-text">Streams are distributed through content delivery networks (CDNs) to users worldwide.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="apps" class="section-padding">
+            <div class="container">
+                <h2>Free IPTV Apps</h2>
+                <p>There are numerous apps available for accessing free IPTV content. Here are some popular options:</p>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <img src="https://images.provenexpert.com/02/9d/04d558b5be7fced2bb8680770ebb/iptv-trends_full_1670332799.jpg" class="card-img-top" alt="IPTV Trends App">
+                            <div class="card-body">
+                                <h5 class="card-title">IPTV Trends</h5>
+                                <p class="card-text">A versatile app with a user-friendly interface and extensive channel list.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/31/11/79/311179c2-79a6-d31e-4322-5757df24a81a/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg" class="card-img-top" alt="IPTV iOS App">
+                            <div class="card-body">
+                                <h5 class="card-title">IPTV - Watch TV Online (iOS)</h5>
+                                <p class="card-text">A popular choice for Apple device users with a clean interface.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <img src="https://store-images.s-microsoft.com/image/apps.57999.13510798887593391.5644bae3-a2ec-41a3-aa5f-8dab8d171878.f5a6b07c-8338-4d0c-b366-5f3a5bc00efb" class="card-img-top" alt="Kodi App">
+                            <div class="card-body">
+                                <h5 class="card-title">Kodi</h5>
+                                <p class="card-text">A highly customizable media center that supports IPTV with appropriate add-ons.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="playlists" class="section-padding bg-light">
+            <div class="container">
+                <h2>M3U Playlists</h2>
+                <p>M3U playlists are the backbone of free IPTV services. They contain links to various channels and streams. Here are some publicly available M3U playlists:</p>
+                <ul class="list-group">
+                    <li class="list-group-item">https://iptv-org.github.io/iptv/index.m3u</li>
+                    <li class="list-group-item">https://iptv-org.github.io/iptv/index.country.m3u</li>
+                    <li class="list-group-item">https://iptv-org.github.io/iptv/categories/movies.m3u</li>
+                    <li class="list-group-item">https://iptv-org.github.io/iptv/categories/music.m3u</li>
+                    <li class="list-group-item">https://iptv-org.github.io/iptv/categories/news.m3u</li>
+                </ul>
+                <p class="mt-3"><strong>Note:</strong> The availability and reliability of these playlists may vary. Always use caution when accessing third-party content.</p>
+            </div>
+        </section>
+
+        <section id="devices" class="section-padding">
+            <div class="container">
+                <h2>Compatible Devices</h2>
+                <p>Free IPTV can be accessed on a wide range of devices, including:</p>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Smart TVs</h5>
+                                <p class="card-text">Android TV, LG WebOS, Samsung Tizen</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Streaming Devices</h5>
+                                <p class="card-text">Amazon Fire TV Stick, Roku, Apple TV</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Mobile Devices</h5>
+                                <p class="card-text">Smartphones and tablets (iOS and Android)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="legal" class="section-padding bg-light">
+            <div class="container">
+                <h2>Legal Considerations</h2>
+                <p>While free IPTV itself is not illegal, the content provided through these services may sometimes infringe on copyrights. Users should be aware of the following:</p>
+                <ul>
+                    <li>Some free IPTV services may offer copyrighted material without proper licensing</li>
+                    <li>Accessing such content could potentially be illegal in your jurisdiction</li>
+                    <li>Always verify the legality of the content you're accessing</li>
+                    <li>Consider using VPN services for added privacy and security</li>
+                </ul>
+                <p class="mt-3"><strong>Recommendation:</strong> It's advisable to use official, licensed streaming services whenever possible to ensure compliance with copyright laws.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2024 Free IPTV Information Hub. This website is for informational purposes only.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
